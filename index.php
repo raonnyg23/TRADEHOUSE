@@ -318,7 +318,7 @@
          <a class="link" href="#"> <i class="fas fa-phone"></i> +1 (829) 669-5705 </a>
          <a class="link" href="#"> <i class="fas fa-envelope"></i> +1 (829) 427-1839 </a>
          <a class="link" href="#"> <i class="fas fa-envelope"></i> 2200027@ipisa.edu.do </a>
-         <a class="link" href="#"> <i class="fas fa-envelope"></i> 2200025@ipisa.edu.do </a>
+         <a class="link" href="#"> <i class="fas fa-envelope"></i> 2200024@ipisa.edu.do </a>
       </div>
 
       <div class="box" data-aos="fade-up" data-aos-delay="600">
