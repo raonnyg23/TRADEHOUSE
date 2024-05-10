@@ -32,27 +32,35 @@
         <!--Formulario de Login y registro-->
         <div class="contenedor__login-register">
           <!--Login-->
-          <form action="" class="formulario__login">
+          <form action="php/login.php" method="post" class="formulario__login">
             <img src="./assets/images/LOGO.png" loading="lazy" />
             <h2>Iniciar Sesión</h2>
-            <input type="text" placeholder="example@gmail.com" required />
-            <input type="password" placeholder="******" required />
+            <h3>Correo electronico</h3>
+            <input type="text" placeholder="example@gmail.com" name="correo_electronico" required />
+            <h3>Contraseña</h3>
+            <input type="password" placeholder="******" name="contrasena" required />
             <button>Entrar</button>
           </form>
 
           <!--Register-->
-          <form action="" class="formulario__register">
+          <form action="php/registro.php" method="POST" class="formulario__register" >
             <img src="./assets/images/LOGO.png" loading="lazy" />
             <h2>Regístrarse</h2>
 
+            <h3>Nombre Completo</h3>
             <input
+            
               type="text"
               placeholder="Jose Miguel Almonte Guzman"
+              name="nombre_completo"
               required
             />
-            <input type="text" placeholder="JoseAlmote@gmail.com" required />
-            <input type="text" placeholder="JMiguel" required />
-            <input type="password" placeholder="******" required />
+            <h3>Correo electronico</h3>
+            <input type="text" placeholder="JoseAlmote@gmail.com" name="correo_electronico" required />
+            <h3>Nombre de usuario</h3>
+            <input type="text" placeholder="JMiguel" name="usuario" required />
+            <h3>Contraseña</h3>
+            <input type="password" placeholder="******" name="contrasena" required />
             <button>Regístrarse</button>
           </form>
         </div>
