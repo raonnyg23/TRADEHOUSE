@@ -12,7 +12,9 @@
     if(mysqli_num_rows($valdiar_login) > 0 ){
         header("location: ../index.php");
         exit();
-    } else{
+    } 
+    
+    else{
         echo '
             <script>
             alert("este correo no esta registrado, por favor intente de nuevo");
@@ -21,5 +23,5 @@
         
         ';
         exit();
-    }
+    } 
 ?>

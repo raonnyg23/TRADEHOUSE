@@ -26,13 +26,12 @@
    <a href="#" class="heading"> TRADE <span>HOUSE</span> </a>
 
    <nav class="navbar">
-      <a href="#home">home</a>
-      <a href="#about">about</a>
-      <a href="#products">products</a>
-      <a href="#services">services</a>
-      <a href="#gallery">gallery</a>
-      <a href="#contact">contact</a>
-      <a href="#blogs">blogs</a>
+      <a href="#inicio">inicio</a>
+      <a href="#informacion">informacion</a>
+      <a href="#productos">productos</a>
+      <a href="#servicios">servicios</a>
+      <a href="#galeria">galeria</a>
+      <a href="opiniones.php">opiniones o quejas</a>
    </nav>
 
    <div class="icons">
@@ -53,7 +52,7 @@
 
 <!-- home section starts  -->
 
-<section class="home" id="home">
+<section class="home" id="inicio">
 
    <div class="content">
       <p></p>
@@ -73,17 +72,21 @@
 
 <!-- about section starts  -->
 
-<section class="about" id="about">
+<section class="about" id="informacion">
 
    <div class="image" data-aos="fade-right" data-aos-delay="150">
       <img src="images/Ephoto360.com_166226771a8361.jpg" alt="">
    </div>
 
    <div class="content" data-aos="fade-left" data-aos-delay="300">
-      <span>why choose us?</span>
-      <h3>celebrate your christmas with us</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur omnis magnam, labore quidem assumenda unde aliquam quasi ipsa? Saepe voluptatum, magnam mollitia aperiam laborum eaque in nam eos reiciendis corporis!</p>
-      <a href="#" class="btn">read more</a>
+      <span>¿Listo para enriquecer tus gustos?</span>
+      <h3>La mejor forma de intercambio</h3>
+      <p>TradeHouse es una aplicación web fundada por 3 programadores de 
+         la intitución dominicana IPISA, planean darse a conocer de una forma 
+         única y eficiente para todas las personas creando un momento especial entre
+         el usuario y la apliación web
+      </p>
+      
    </div>
 
 </section>
@@ -92,9 +95,9 @@
 
 <!-- products section starts  -->
 
-<section class="products" id="products">
+<section class="products" id="productos">
 
-   <h1 class="heading"> our <span>products</span> </h1>
+   <h1 class="heading"> algunos <span>productos</span> </h1>
 
    <div class="box-container">
 
@@ -238,46 +241,31 @@
 
 <!-- services section starts  -->
 
-<section class="services" id="services">
+<section class="services" id="servicios">
 
-   <h1 class="heading"> our <span>services</span> </h1>
+   <h1 class="heading"> Nuestro <span>servicios</span> </h1>
 
    <div class="box-container">
 
-      <div class="box" class="box" data-aos="fade-up" data-aos-delay="150">
-         <i class="fas fa-tree"></i>
-         <h3>christmas tree</h3>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
-      </div>
+      
 
-      <div class="box" class="box" data-aos="fade-up" data-aos-delay="300">
-         <i class="fas fa-cookie"></i>
-         <h3>christmas cookies</h3>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
-      </div>
-
-      <div class="box" class="box" data-aos="fade-up" data-aos-delay="450">
-         <i class="fas fa-snowman"></i>
-         <h3>christmas snowman</h3>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
-      </div>
+      
 
       <div class="box" class="box" data-aos="fade-up" data-aos-delay="600">
          <i class="fas fa-gifts"></i>
-         <h3>christmas gifts</h3>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+         <h3>intercambio de articulos</h3>
+         <p>Podra subir articulos de gran valor a los cuales no le encuentre ningún uso y de esa forma
+            poder intercambiarlo con otro usuario por otro articulo que se de mas agrado para usted</p>
       </div>
 
-      <div class="box" class="box" data-aos="fade-up" data-aos-delay="750">
-         <i class="fas fa-candy-cane"></i>
-         <h3>christmas candy</h3>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
-      </div>
+   
 
       <div class="box" class="box" data-aos="fade-up" data-aos-delay="900">
          <i class="fas fa-sleigh"></i>
-         <h3>christmas sleigh</h3>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+         <h3>Ventas de articulos</h3>
+         <p>En caso de que no encuentre un articulo favorable para usted por el cual intercambiar, podrá ponerle un precio
+            al articulo que subió para que otro usuario interesado pueda adquirirlo
+         </p>
       </div>
 
    </div>
@@ -288,9 +276,9 @@
 
 <!-- gallery section starts  -->
 
-<section class="gallery" id="gallery">
+<section class="gallery" id="galeria">
 
-   <h1 class="heading"> our <span>gallery</span> </h1>
+   <h1 class="heading"> Nuestra <span>Galería</span> </h1>
 
    <div class="box-container">
       <img class="box" data-aos="zoom-in" data-aos-delay="150" src="images/36615849-0618-45f2-9374-4e5c0800c3f9.jpg" alt="">
@@ -304,83 +292,6 @@
    </div>
 
 </section>
-
-<!-- gallery section ends -->
-
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-   <form action="">
-      <h3 data-aos="fade-up" data-aos-delay="150">contact us</h3>
-      <input data-aos="fade-up" data-aos-delay="300" type="text" placeholder="full name" class="box">
-      <input data-aos="fade-up" data-aos-delay="450" type="email" placeholder="email" class="box">
-      <input data-aos="fade-up" data-aos-delay="600" type="number" placeholder="phone" class="box">
-      <textarea data-aos="fade-up" data-aos-delay="750" name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
-      <input data-aos="fade-up" data-aos-delay="900" type="submit" value="send now" class="btn">
-   </form>
-
-</section>
-
-<!-- contact section ends -->
-
-<!-- blogs sections starts  -->
-
-<section class="blogs" id="blogs">
-
-   <h1 class="heading"> our <span>blogs</span> </h1>
-
-   <div class="box-container">
-
-      <div class="box" data-aos="fade-up" data-aos-delay="150">
-         <div class="images">
-            <img src="images/blog-1.jpg" alt="">
-         </div>
-         <div class="content">
-            <h3>blog title goes here</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, mollitia?</p>
-            <a href="#" class="btn">read more</a>
-            <div class="icons">
-               <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
-               <a href="#"> <i class="fas fa-user"></i> by admin </a>
-            </div>
-         </div>
-      </div>
-
-      <div class="box" data-aos="fade-up" data-aos-delay="300">
-         <div class="images">
-            <img src="images/blog-2.jpg" alt="">
-         </div>
-         <div class="content">
-            <h3>blog title goes here</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, mollitia?</p>
-            <a href="#" class="btn">read more</a>
-            <div class="icons">
-               <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
-               <a href="#"> <i class="fas fa-user"></i> by admin </a>
-            </div>
-         </div>
-      </div>
-
-      <div class="box" data-aos="fade-up" data-aos-delay="450">
-         <div class="images">
-            <img src="images/blog-3.jpg" alt="">
-         </div>
-         <div class="content">
-            <h3>blog title goes here</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, mollitia?</p>
-            <a href="#" class="btn">read more</a>
-            <div class="icons">
-               <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
-               <a href="#"> <i class="fas fa-user"></i> by admin </a>
-            </div>
-         </div>
-      </div>
-
-   </div>
-
-</section>
-
 <!-- blogs sections ends -->
 
 <!-- footer section starts  -->
@@ -391,50 +302,36 @@
 
       <div class="box" data-aos="fade-up" data-aos-delay="150">
          <h3>quick links</h3>
-         <a class="link" href="#home"> <i class="fas fa-angle-right"></i> home</a>
-         <a class="link" href="#about"> <i class="fas fa-angle-right"></i> about</a>
-         <a class="link" href="#products"> <i class="fas fa-angle-right"></i> products</a>
-         <a class="link" href="#services"> <i class="fas fa-angle-right"></i> services</a>
-         <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> gallery</a>
-         <a class="link" href="#contact"> <i class="fas fa-angle-right"></i> contact</a>
-         <a class="link" href="#blogs"> <i class="fas fa-angle-right"></i> blogs</a>
+         <a class="link" href="#inicio"> <i class="fas fa-angle-right"></i> incio</a>
+         <a class="link" href="#informacion"> <i class="fas fa-angle-right"></i> informacion</a>
+         <a class="link" href="#productos"> <i class="fas fa-angle-right"></i> productos</a>
+         <a class="link" href="#servicios"> <i class="fas fa-angle-right"></i> servicios</a>
+         <a class="link" href="#galeria"> <i class="fas fa-angle-right"></i> caleria</a>
+         <a class="link" href="opiniones.php"> <i class="fas fa-angle-right"></i> opiniones o quejas</a>
       </div>
 
-      <div class="box" data-aos="fade-up" data-aos-delay="300">
-         <h3>extra links</h3>
-         <a class="link" href="#"> <i class="fas fa-angle-right"></i> my order </a>
-         <a class="link" href="#"> <i class="fas fa-angle-right"></i> my wishlist </a>
-         <a class="link" href="#"> <i class="fas fa-angle-right"></i> my favorite </a>
-         <a class="link" href="#"> <i class="fas fa-angle-right"></i> terms or use </a>
-         <a class="link" href="#"> <i class="fas fa-angle-right"></i> privacy policy </a>
-      </div>
+     
 
       <div class="box" data-aos="fade-up" data-aos-delay="450">
-         <h3>contact info</h3>
-         <a class="link" href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-         <a class="link" href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-         <a class="link" href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
-         <a class="link" href="#"> <i class="fas fa-envelope"></i> anasbhai@gmail.com </a>
-         <a class="link" href="#"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
+         <h3>Informacion de contacto</h3>
+         <a class="link" href="#"> <i class="fas fa-phone"></i> +1 (809) 763-9095 </a>
+         <a class="link" href="#"> <i class="fas fa-phone"></i> +1 (829) 669-5705 </a>
+         <a class="link" href="#"> <i class="fas fa-envelope"></i> +1 (829) 427-1839 </a>
+         <a class="link" href="#"> <i class="fas fa-envelope"></i> 2200027@ipisa.edu.do </a>
+         <a class="link" href="#"> <i class="fas fa-envelope"></i> 2200025@ipisa.edu.do </a>
       </div>
 
       <div class="box" data-aos="fade-up" data-aos-delay="600">
-         <h3>newsletter</h3>
-         <form action="">
-            <input type="email" name="" placeholder="enter your email" class="email" id="">
-            <input type="submit" value="subscribe" class="btn">
-         </form>
+         <h3>Redes sociales</h3>
+        
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.facebook.com/profile.php?id=61559534580820" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/tradehouse1234/" class="fab fa-instagram"></a>
          </div>
       </div>
 
    </div>
-
-   <p class="credit"> created by <span>mr. web designer</span> | all rights reserved! </p>
+   <p>copyright@tradehouse.com</p>
 
 </section>
 
