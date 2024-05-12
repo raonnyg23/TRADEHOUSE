@@ -45,7 +45,7 @@
           </form>
 
           <!--Register-->
-          <form action="php/registro.php" method="POST" class="formulario__register" >
+          <form action="php/registro.php" method="POST" class="formulario__register" id="captchaForm" >
             <img src="./assets/images/LOGO.png" loading="lazy" />
             <h2>Regístrarse</h2>
 
@@ -63,12 +63,18 @@
             <input type="text" placeholder="JMiguel" name="usuario" required />
             <h3>Contraseña</h3>
             <input type="password" placeholder="******" name="contrasena" required />
+            
+            <!--aqui comienza el codifo del capchat-->
+            <h3 for="captchaInput">Ingrese el texto que ve en la imagen:</h3><br>
+            <input type="text" id="captchaInput" name="captchaInput"><br>
+            <canvas id="captchaCanvas" width="100" height="30"></canvas><br>
             <button>Regístrarse</button>
           </form>
+         <!--esto es el codigo de js de capchat lo que es para comprobar que no es un bot--> <script src="js/capchat.js"></script>
         </div>
       </div>
     </main>
 
-    <script src="assets/js/script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
